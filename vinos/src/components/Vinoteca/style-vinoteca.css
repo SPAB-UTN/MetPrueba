@@ -1,0 +1,22 @@
+.vinotecaPage h1, .vinotecaPage h2, .vinotecaPage h4{
+    font-family: 'Poppins', sans-serif;
+}
+.vinotecaPage h1{
+    color: #76353B;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    font-weight:600;
+}
+.vinotecaPage h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight:600;
+}
+.vinotecaPage h4{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 300;
+}
