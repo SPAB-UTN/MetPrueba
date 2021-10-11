@@ -14,17 +14,16 @@ const DetalleBodega = () =>{
 
     return (
         <>   
-            <div className={classes.barra} />
             <div>
                 {bodega.map((bod, index) => (
                     <div key={index}>
-                        <Container>
-                            <Typography className={classes.subtitulo} align="center" variant="h4" color="inherit">
-                                <img src={`./images/${bod.logo}`} />
+                        <Container className="marginBody">
+                            <img className="logoDetalle" src={`../images/${bod.logo}`} />
+                            <h4 className="titleBodega" align="center">
                                 {bod.nombre}
-                            </Typography>
+                            </h4>
                             <div>
-                                <img src={`./images/${bod.portada}`.default} />
+                                <img className="portadaDetalle" src={`../images/${bod.portada}`} />
                             </div>
                             <Typography className={classes.subtitulo} align="center" variant="h6" color="inherit">
                                 {bod.historia}
@@ -37,7 +36,7 @@ const DetalleBodega = () =>{
                                 <iframe src={bod.mapa} allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <div>
-                                <Link to={`/bodega`}> Volver</Link> 
+                                <Link className="detalleBodega" to={`/bodega`}> Volver</Link> 
                             </div>                               
                         </Container>
                     </div>                     
