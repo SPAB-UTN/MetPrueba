@@ -2,7 +2,7 @@ import React from 'react';
 import { Typography, Container } from '@material-ui/core';
 import useStyles from './styles';
 import BodegaDatos from './Bodega1';
-import bodegas from "../datos/bodegas.json";
+import bodegas from "../Datos/bodegas.json";
 
 
 const Bodega = () => {

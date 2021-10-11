@@ -10,7 +10,7 @@ const BodegaDato = ({ id,nombre, slogan, logo, fotos }) => {
     return (
         <>
             <Typography className={classes.subtitulo2} align="center" variant="h4" color="inherit">
-                <img src={require(`../img/${logo}`).default} height="50px" />   
+                <img src={`images/${logo}`.default} height="50px" />   
                 <Link className={classes.subtitulo} to={`/bodega/${id}`} underline="none"> {nombre} </Link>
             </Typography>
             <Typography className={classes.subtitulo3} align="center" variant="h6" color="inherit">{slogan}</Typography>
@@ -18,7 +18,7 @@ const BodegaDato = ({ id,nombre, slogan, logo, fotos }) => {
             <ImageList cols={3} >
                 {fotos.map((item) => (
                     <ImageListItem key={item}>
-                        <img src={require(`../img/${item}`).default} />
+                        <img src={`images/${item}`.default} />
                     </ImageListItem>
                 ))}
             </ImageList>
@@ -31,7 +31,7 @@ const BodegaDato = ({ id,nombre, slogan, logo, fotos }) => {
 
 const itemData = [
     {
-        img: 'images/a16.jpg',
+        img: 'a16.jpg',
         title: 'Breakfast',
     },
     {

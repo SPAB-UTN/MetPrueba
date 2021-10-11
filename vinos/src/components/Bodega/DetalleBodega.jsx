@@ -1,7 +1,7 @@
 import React from 'react';
 import useStyles from './styles';
 import { Typography, Container, Button } from '@material-ui/core';
-import bodegas from "../datos/bodegas.json";
+import bodegas from "../Datos/bodegas.json";
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
@@ -20,11 +20,11 @@ const DetalleBodega = () =>{
                     <div key={index}>
                         <Container>
                             <Typography className={classes.subtitulo} align="center" variant="h4" color="inherit">
-                                <img src={require(`../img/${bod.logo}`).default} height="50px" />
+                                <img src={`images/${bod.logo}`.default} height="50px" />
                                 {bod.nombre}
                             </Typography>
                             <div>
-                                <img src={require(`../img/${bod.portada}`).default} />
+                                <img src={`images/${bod.portada}`.default} />
                             </div>
                             <Typography className={classes.subtitulo} align="center" variant="h6" color="inherit">
                                 {bod.historia}
