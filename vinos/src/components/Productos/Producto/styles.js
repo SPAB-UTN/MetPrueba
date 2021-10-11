@@ -17,19 +17,8 @@ export default makeStyles(() => ({
     display: 'flex',
     justifyContent: 'center',
   },
-  textoButton: {
-    fontSize: '16px',
-    fontWeight: '600',
-    paddingLeft: '10px',
-    textTransform: 'uppercase',
-  },
   IconButton: {
     color: '#fff',
-  },
-  ButtonBase: {
-    backgroundColor: '#76353B',
-    borderRadius: '8px !important',
-    marginBottom: '10px !important',
   },
   cardContent: {
     display: 'flex',
@@ -39,9 +28,6 @@ export default makeStyles(() => ({
     color: '#76353B',
     textAlign: 'center',
   },
-    TypographyBody2: {
-      lineHeight: '1 !important',
-      fontSize: '1rem !important',
-    },
+    
 }));
 

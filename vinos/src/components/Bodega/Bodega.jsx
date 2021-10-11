@@ -16,7 +16,6 @@ const Bodega = () => {
                 <Typography className={classes.titulo} align="center" variant="h4" color="inherit">
                     BODEGAS
                 </Typography>
-
                 {bodegas.map(( bodega) => 
                     <BodegaDatos
                         id={bodega.id}

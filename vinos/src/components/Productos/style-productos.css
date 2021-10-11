@@ -1,0 +1,11 @@
+.inputVinos{
+    height: 30px;
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #76353B;
+    padding: 5px 10px;
+    float: right;
+}

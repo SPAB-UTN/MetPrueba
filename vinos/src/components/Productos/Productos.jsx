@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import {Grid} from '@material-ui/core';
 import Producto from './Producto/Producto';
 import useStyles from './styles';
+import './style-productos.css';
 
 const Productos = ({ productos, agregarACarrito }) => {
     
@@ -12,6 +13,7 @@ const Productos = ({ productos, agregarACarrito }) => {
         <main className={classes.content}>
             <div className={classes.toolbar} />
             <input 
+            className="inputVinos"
             type="text"
             placeholder="Buscar"
             onChange={(event) => {

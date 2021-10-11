@@ -1,15 +1,16 @@
 import React from 'react'
 import { Typography, Container } from '@material-ui/core';
 import useStyles from './styles';
+import './style-vinoteca.css';
 
 const Vinoteca = () => {
     const classes = useStyles();
     return (
 
         <Container>
-            <div>
+            <div className="vinotecaPage">
                 <Typography className={classes.header} align="center" variant="h1">
-                        Proyecto final Metodologia de la Investigacion
+                        Proyecto final Metodología de la Investigación
                 </Typography>
                 <Typography className={classes.sub} align="center" variant="h2">
                         Integrantes: Spalenza, Potichkin, Aguilar, Boschi

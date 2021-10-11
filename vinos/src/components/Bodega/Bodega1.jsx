@@ -30,7 +30,7 @@ function BodegaDato({id,nombre,telefono}){
 
 const itemData = [
     {
-        img: 'https://images.unsplash.com/photo-1551963831-b3b1ca40c98e',
+        img: 'images/a16.jpg',
         title: 'Breakfast',
     },
     {
