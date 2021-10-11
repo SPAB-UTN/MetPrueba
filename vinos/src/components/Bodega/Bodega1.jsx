@@ -2,28 +2,29 @@ import React from 'react';
 import useStyles from './styles';
 import { Typography } from '@material-ui/core';
 import { ImageList, ImageListItem } from '@mui/material';
+import { Link } from 'react-router-dom';
 
-function BodegaDato({id,nombre,telefono}){
-    const classes = useStyles();
-
+const BodegaDato = ({ id,nombre, slogan, logo, fotos }) => {
+    const classes = useStyles();    
 
     return (
         <>
-            <Typography className={classes.subtitulo} align="center" variant="h4" color="inherit">{nombre}</Typography>
-            
-            <div style={{ color: "grey" }}>{telefono} </div>
+            <Typography className={classes.subtitulo2} align="center" variant="h4" color="inherit">
+                <img src={require(`../img/${logo}`).default} height="50px" />   
+                <Link className={classes.subtitulo} to={`/bodega/${id}`} underline="none"> {nombre} </Link>
+            </Typography>
+            <Typography className={classes.subtitulo3} align="center" variant="h6" color="inherit">{slogan}</Typography>
+
             <ImageList cols={3} >
-                {itemData.map((item) => (
-                    <ImageListItem key={item.img}>
-                        <img
-                            src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                            srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                            alt={item.title}
-                            loading="lazy"
-                        />
+                {fotos.map((item) => (
+                    <ImageListItem key={item}>
+                        <img src={require(`../img/${item}`).default} />
                     </ImageListItem>
                 ))}
             </ImageList>
+
+            <Link to={`/bodega/${id}`}> Ver detalles</Link>
+
         </>
     )
 }

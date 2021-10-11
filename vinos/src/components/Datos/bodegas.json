@@ -1,6 +1,6 @@
 [
     {
-        "id":"BodegaA16",
+        "id":"A16",
         "nombre": "Bodega A16",
         "slogan":"Amor por el vino",
         "logo":"logoa16.png",
@@ -14,7 +14,12 @@
             "a163.jpg",
             "a164.jpg",
             "a165.jpg"
-        ]
+        ],
+        "historia":"Bodega A16 es un importante proyecto vitivinícola que se inició en el 2007 como el décimo sexto emprendimiento del empresario Gerardo Cartellone. El espíritu que dio origen a la bodega es el cuidado de cada detalle creando vinos de excelencia y el amor como la base para seguir creciendo dentro de la industria. La tradición por la industria vitivinícola se remonta a su bisabuelo en Sicilia, quien tenía sus propios viñedos. Luego su abuelo al llegar a la Argentina, trabajó en grandes bodegas. Finalmente, su padre continuó la práctica y hoy es él quien sigue en la industria del vino.",
+        "portada":"a16.jpg",
+        "mapa":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13370.634559484977!2d-68.9144161!3d-33.0917642!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x72a28bd4b2bb476e!2sBodega%20A16!5e0!3m2!1ses!2sar!4v1633903165375!5m2!1ses!2sar",
+        "finca":"TERROIR: ", 
+        "fincahistoria": "La finca “Papa Francisco” está ubicada en una de las regiones vitivinícolas más altas y frescas de Lujan de Cuyo por su cercanía al rio Mendoza. Su clima es desértico y seco, con veranos cálidos e inviernos muy fríos. Además, sus suelos aluviales y escasos en materia orgánica son franco-arcillosos en la superficie con abundante presencia de canto rodado y rocas a partir de los veinte centímetros de profundidad, una característica que los convierte en ideales para el cultivo del Malbec. El cuidado de los viñedos y su adecuado riego sientan las bases de nuestros vinos."
     },
     {
         "id":"AchavalFerrer",
@@ -22,7 +27,7 @@
         "slogan":"Guardianes de un legado",
         "logo":"logoachaval.jpg",
         "telefono": "(+54) 9 261 3388699",
-        "ubicacion":"Ruta 7, kilometro 1056, Luján de Cuyo, Mendoza, Argentina",
+        "ubicacion":"Calle Cobos 2601, Perdriel, Luján de Cuyo, Mendoza, Argentina",
         "fotos": [
             "acha1.jpg",
             "acha2.jpg",
@@ -30,7 +35,12 @@
             "acha4.jpg",
             "acha5.jpg",
             "acha6.jpg"
-        ] 
+        ],
+        "historia":"En Achaval Ferrer se protegió el legado del tiempo en una época donde lo viejo era reemplazado por lo nuevo. Hoy, se sigue cuidando ese legado manteniendo el ADN de plantas centenarias y combinando la pasión con la sabiduría, para crear vinos que expresen la mística del terroir excepcional al que pertenecen. Eso es lo que hacemos. Porque nadie tiene más experiencia que el tiempo, y nadie sabe más que la naturaleza.",
+        "portada":"achavalFerrer.jpg",
+        "mapa":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3343.9853172875432!2d-68.91582298525026!3d-33.056853384804626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e09593e3b20d3%3A0x7653eaeccd705f3f!2sBodega%20Achaval%20Ferrer!5e0!3m2!1ses!2sar!4v1633903790475!5m2!1ses!2sar",  
+        "finca":"Filosofía: ",
+        "fincahistoria":"Respeto por el terroir y mínima intervención: Desde sus inicios, la bodega persigue un camino fuertemente marcado por su obsesión y respeto por la naturaleza. Los pilares fundamentales de la producción en Achaval-Ferrer, tienen foco en la mínima intervención necesaria entre la tierra y la copa."
     },
     {
         "id":"CarinaE",
@@ -45,6 +55,11 @@
             "car1.jpg",
             "car5.jpg",
             "car2.jpg"
-        ]  
+        ],
+        "historia":"El nombre CarinaE (en latín, “de la carena”) viene de la pasión de Philippe por la astronomía. Carina es probablemente una de las más hermosas constelaciones del cielo austral y cuenta con una multitud de estrellas. Aparece en las noches de verano y otoño, en particular durante el período de cosecha. ",
+        "portada":"carinaE.jpg",
+        "mapa":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13379.482968751527!2d-68.7697336!3d-33.0335357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc34b5e4160d8fdb4!2sBodega%20CarinaE!5e0!3m2!1ses!2sar!4v1633903888367!5m2!1ses!2sar",
+        "finca":"Historia: ",
+        "fincahistoria":"Brigitte y Philippe emprendieron este proyecto con muchas ganas y sin ningún conocimiento en la vitivinicultura. Pudieron concretar esta bella aventura con el apoyo del equipo de Michel Rolland, en particular de Gabriela Celeste desde el comienzo y luego con Juan Manuel González en la parte enológica y Marcelo Canatella en los viñedos. El trabajo en equipo ha permitido crear vinos muy bien recibidos por la crítica y los consumidores. "
     }
 ]
