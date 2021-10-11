@@ -14,6 +14,7 @@ const DetalleBodega = () =>{
 
     return (
         <>   
+            <div className={classes.barra} />
             <div>
                 {bodega.map((bod, index) => (
                     <div key={index}>
@@ -32,11 +33,11 @@ const DetalleBodega = () =>{
                                 <b>{bod.finca}</b>  {bod.fincahistoria}
                             </Typography>
                             
-                            <div>
+                            <div className="iframeMapa">
                                 <iframe src={bod.mapa} allowfullscreen="" loading="lazy"></iframe>
                             </div>
                             <div>
-                                <Link className="detalleBodega" to={`/bodega`}> Volver</Link> 
+                                <Link to={`/bodega`} className="detalleBodega">Volver</Link> 
                             </div>                               
                         </Container>
                     </div>                     
