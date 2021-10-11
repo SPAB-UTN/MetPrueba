@@ -1,20 +1,18 @@
 import React from 'react';
-import { Typography, Container } from '@material-ui/core';
+import { Container } from '@material-ui/core';
 import useStyles from './styles';
 import BodegaDatos from './Bodega1';
 import bodegas from "../Datos/bodegas.json";
-
+import './style-bodega.css';
 
 const Bodega = () => {
     const classes = useStyles();
     return (
         <>
-            <Container>
-                <div className={classes.barra} />
-
-                <Typography className={classes.titulo} align="center" variant="h4" color="inherit">
+            <Container className="marginBody">
+                <h4 className="titleBodega" align="center">
                     BODEGAS
-                </Typography>
+                </h4>
                 {bodegas.map(( bodega) => 
                     <BodegaDatos
                         id={bodega.id}

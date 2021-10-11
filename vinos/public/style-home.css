@@ -2,4 +2,8 @@ body{
     margin: 0;
     background-color: #fafafa;
     padding-bottom: 40px !important;
+    font-family: 'Poppins', sans-serif;
+}
+.marginBody{
+    padding-top: 160px;
 }
