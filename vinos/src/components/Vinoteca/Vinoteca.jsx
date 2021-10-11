@@ -7,7 +7,7 @@ const Vinoteca = () => {
     const classes = useStyles();
     return (
 
-        <Container>
+        <Container className="marginBody">
             <div className="vinotecaPage">
                 <Typography className={classes.header} align="center" variant="h1">
                         Proyecto final Metodología de la Investigación

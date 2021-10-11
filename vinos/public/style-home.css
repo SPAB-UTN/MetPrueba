@@ -1,9 +1,10 @@
 body{
     margin: 0;
     background-color: #fafafa;
-    padding-bottom: 40px !important;
+    padding-bottom: 0px !important;
     font-family: 'Poppins', sans-serif;
 }
 .marginBody{
     padding-top: 160px;
+    margin-bottom: 200px;
 }

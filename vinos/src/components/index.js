@@ -6,3 +6,4 @@ export { default as FormPago } from './FormFinalizar/FormPago';
 export { default as Vinoteca } from './Vinoteca/Vinoteca';
 export { default as Bodega } from './Bodega/Bodega';
 export { default as Bodega1 } from './Bodega/Bodega1';
+export { default as Footer } from './Footer/Footer';

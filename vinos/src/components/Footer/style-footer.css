@@ -1,0 +1,21 @@
+.footerGeneral{
+    background-color: #F8F6E9;
+    color: black !important;
+    position: absolute;
+    width: 100%;
+    bottom: 0 !important;
+}
+ 
+.footerGeneral i{
+    color: black !important;
+    font-size: 20px;   
+}
+
+.footerGeneral ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerGeneral h5, .footerGeneral p{
+    text-align: center !important;
+}
