@@ -10,8 +10,7 @@ const Productos = ({ productos, agregarACarrito }) => {
     const [searchTerm, setSearchTerm] = useState("");
 
     return (
-        <main className={classes.content}>
-            <div className={classes.toolbar} />
+        <main className={classes.content} className="marginBody">
             <input 
             className="inputVinos"
             type="text"

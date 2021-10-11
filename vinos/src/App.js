@@ -73,7 +73,7 @@ const App = () => {
 
     return (
         <Router>
-            <div>
+            <div class="body2">
                 <NavBar totalItems={cart.total_items} />
                 <Switch>
                     <Route  exact path="/">

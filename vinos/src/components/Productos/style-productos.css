@@ -9,3 +9,6 @@
     padding: 5px 10px;
     float: right;
 }
+.MuiGrid-spacing-xs-4 {
+    width: 100% !important;
+}

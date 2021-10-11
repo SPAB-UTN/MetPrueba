@@ -3,8 +3,18 @@ body{
     background-color: #fafafa;
     padding-bottom: 0px !important;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh !important;
 }
 .marginBody{
     padding-top: 160px;
     margin-bottom: 200px;
+    padding-bottom: 30px;
+}
+.body2{    
+    min-height: 100vh !important;
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
 }
