@@ -19,16 +19,16 @@ const Footer = () => {
               <h5 className="title">Redes</h5>
               <ul>
                 <li className="list-unstyled">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 </li>
                 <li className="list-unstyled">
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
                 </li>
                 <li className="list-unstyled">
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
                 </li>
                 <li className="list-unstyled">
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://ar.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </li>
               </ul>
             </MDBCol>
